@@ -38,3 +38,8 @@ class Sloution{
 
 //time complexity is O(n)       
 //space complexity is O(1)
+
+//approch:
+// 1. Traverse the array from the first element to the second last element.
+// 2. If the current element is greater than the next element, return 0.
+// 3. If the loop completes, return 1.

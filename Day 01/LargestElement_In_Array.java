@@ -45,3 +45,9 @@ class Sloution{
 
 //time complexity is O(n)
 //space complexity is O(1)
+
+//approch in short:
+// 1. Initialize max as the first element of the array.
+// 2. Traverse the array from the second element to the end.
+// 3. If the current element is greater than the max, update the max.
+// 4. Return the max.

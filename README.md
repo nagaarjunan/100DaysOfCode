@@ -36,6 +36,3 @@ By the end of this 100-day journey, I aim to have:
 
 Feel free to connect with me on https://www.linkedin.com/in/nagaarjunan-t/ to discuss coding, DSA, or anything related!
 
-## Acknowledgments 🙏
-
-I'd like to express my gratitude to the coding community, online platforms, and resources that have facilitated my learning journey.

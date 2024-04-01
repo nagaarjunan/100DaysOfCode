@@ -52,3 +52,11 @@ class Solution{
         return result;
     }
 }
+
+//approch in short:
+// 1. Initialize max and min as first two elements of the array.
+// 2. Traverse the array from the third element to the end.
+// 3. If the current element is greater than the max, update the max and second max.
+// 4. If the current element is smaller than the min, update the min and second min.
+// 5. Return the second max and second min.
+
