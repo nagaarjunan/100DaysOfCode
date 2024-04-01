@@ -53,10 +53,13 @@ class Solution{
     }
 }
 
-//approch in short:
-// 1. Initialize max and min as first two elements of the array.
-// 2. Traverse the array from the third element to the end.
-// 3. If the current element is greater than the max, update the max and second max.
-// 4. If the current element is smaller than the min, update the min and second min.
-// 5. Return the second max and second min.
+//time complexity is O(n)   
+//space complexity is O(1)
 
+//approch:
+// 1. Initialize max and min as the first element of the array.
+// 2. Initialize secondMax as Integer.MIN_VALUE and secondMin as Integer.MAX_VALUE.
+// 3. Traverse the array from the second element to the end.
+// 4. If the current element is greater than the max, update the max and secondMax.
+// 5. If the current element is less than the min, update the min and secondMin.
+// 6. Return the secondMax and secondMin.
