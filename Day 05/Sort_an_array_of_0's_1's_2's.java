@@ -58,7 +58,7 @@ class Solution {
 // time complexity is O(n)
 // space complexity is O(1)
 
-// approach:
+// Approach :
 // 1. Initialize count_0, count_1, and count_2 as 0.
 // 2. Traverse the array from the start to the end.
 // 3. If the current element is 0, increment count_0.
